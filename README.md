@@ -93,20 +93,20 @@ ai-devops-codegen/
 ```
 
 ## Future Improvements:
-Add input validation and error handling enhancements
+-Add input validation and error handling enhancements
 
-Integrate validation tools for Terraform and Kubernetes configs
+-Integrate validation tools for Terraform and Kubernetes configs
 
-Support asynchronous generation requests and queuing
+-Support asynchronous generation requests and queuing
 
-Build a REST API interface for easier integration in pipelines
+-Build a REST API interface for easier integration in pipelines
 
-Add caching for common prompts to reduce latency and cost
+-Add caching for common prompts to reduce latency and cost
 
-License
+# License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+# Contact
 For questions or contributions, please open an issue or submit a pull request.
 
 
@@ -114,7 +114,3 @@ For questions or contributions, please open an issue or submit a pull request.
 
 
 
-
-
-
-Ask ChatGPT
