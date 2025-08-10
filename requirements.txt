@@ -1,0 +1,3 @@
+ollama
+rich         # For pretty console output (optional)
+pyyaml       # If handling YAML input/output directly
