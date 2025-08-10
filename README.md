@@ -63,10 +63,10 @@ Examples:
 python src/codegen.py --type infra --input "a Terraform config for AWS EC2 with 2 t2.micro instances"
 python src/codegen.py --type docker --input "a Dockerfile for a Python Flask web application"
 python src/codegen.py --type k8s --input "Kubernetes deployment for Nginx with 3 replicas and a LoadBalancer service"
-# Generated files are saved in the generated/<type>/ folder with timestamps.
 ```
+Generated files are saved in the `generated/<type>/` folder with timestamps.
 
-How It Works
+## How It Works:
 The script parses the command-line arguments for configuration type and natural language description.
 
 It builds a system prompt tailored to the chosen configuration type.
@@ -77,7 +77,7 @@ The LLM generates the requested DevOps configuration code.
 
 The output is saved to a timestamped file under generated/<type>/.
 
-Project Structure
+## Project Structure
  ```bash
 ai-devops-codegen/
 ├── generated/                  # Auto-generated config files (ignored in git)
@@ -92,7 +92,7 @@ ai-devops-codegen/
 └── LICENSE                    # License file 
 ```
 
-Future Improvements
+## Future Improvements:
 Add input validation and error handling enhancements
 
 Integrate validation tools for Terraform and Kubernetes configs
