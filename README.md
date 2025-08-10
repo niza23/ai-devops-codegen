@@ -30,7 +30,7 @@ The LLM runs on an AWS EC2 instance, combining cloud scalability with the privac
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/your-username/ai-devops-codegen.git](https://github.com/niza23/ai-devops-codegen.git)
+   git clone https://github.com/niza23/ai-devops-codegen.git
    cd ai-devops-codegen
    ```
 (Optional) Create and activate a virtual environment:
